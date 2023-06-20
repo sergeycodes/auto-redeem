@@ -23,10 +23,5 @@
         "https://www.twitch.tv/*"
       ]
     }
-  ],
-
-
-
-
-    "permissions": ["scripting", "storage"]
+  ]
 }
