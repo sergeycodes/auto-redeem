@@ -24,8 +24,9 @@
 
 
 "action": {
-    "default-popup": "index.html"
-    },
+    "default-popup": "index.html",
+    "default-icon": "images/icon-16.png"
+},
 
     "permissions": ["scripting", "storage"]
 }
