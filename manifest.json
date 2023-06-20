@@ -11,16 +11,21 @@
     "128": "images/icon-128.png"
   },
 
-  
+  "content_scripts": [
+    {
+      "js": ["scripts/auto-redeem.js"],
+      "matches": [
+        "https://developer.chrome.com/docs/extensions/*",
+        "https://developer.chrome.com/docs/webstore/*",
+        "https://www.twitch.tv/*"
+      ]
+    }
+  ],
 
 
 "action": {
     "default-popup": "index.html"
     },
 
-    "permissions": ["scripting", "storage"],
-
-"background": {
-    "service_worker": "auto-redeem.js"
-    }
+    "permissions": ["scripting", "storage"]
 }
