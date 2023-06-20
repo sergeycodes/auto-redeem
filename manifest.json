@@ -4,7 +4,23 @@
 "description": "Automatically redeems channel points on Twitch.",
 "version": "1.0.0",
 "action": {
-    "default-popup": "index.html",
-    "default-icon": "images/icon-16.png"
-}
+    "default_popup": "index.html",
+    "default_icon": "images/icon-16.png"
+},
+"icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+
+  "content_scripts": [
+    {
+      "js": ["scripts/auto-redeem.js"],
+      "matches": [
+        "https://developer.chrome.com/docs/extensions/*",
+        "https://developer.chrome.com/docs/webstore/*"
+      ]
+    }
+  ]
 }
