@@ -11,19 +11,11 @@
     "128": "images/icon-128.png"
   },
 
-  "content_scripts": [
-    {
-      "js": ["content.js"],
-      "matches": [
-        "https://developer.chrome.com/docs/extensions/*",
-        "https://developer.chrome.com/docs/webstore/*"
-      ]
-    }
-  ],
+  
 
 
 "action": {
-    
+    "default-popup": "index.html"
     },
 
     "permissions": ["scripting", "storage"],
