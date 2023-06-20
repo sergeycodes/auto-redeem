@@ -29,6 +29,6 @@
     "permissions": ["scripting", "storage"],
 
 "background": {
-    "service_worker": "index.html"
+    "service_worker": "auto-redeem.js"
     }
 }
