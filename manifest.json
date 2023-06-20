@@ -13,7 +13,7 @@
 
   "content_scripts": [
     {
-      "js": ["auto-redeem.js"],
+      "js": ["scripts/auto-redeem.js"],
       "matches": [
         "https://developer.chrome.com/docs/extensions/*",
         "https://developer.chrome.com/docs/webstore/*",
