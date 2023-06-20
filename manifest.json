@@ -3,7 +3,10 @@
 "name": "Twitch Auto Redeem",
 "description": "Automatically redeems channel points on Twitch.",
 "version": "1.0.0",
-
+"action": {
+    "default-popup": "index.html",
+    "default-icon": "images/icon-16.png"
+},
 "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
@@ -23,10 +26,7 @@
   ],
 
 
-"action": {
-    "default-popup": "index.html",
-    "default-icon": "images/icon-16.png"
-},
+
 
     "permissions": ["scripting", "storage"]
 }
