@@ -1,0 +1,50 @@
+#holder {
+    margin: 10px auto;
+    padding: 10px;
+    width: 350px;
+    height: 500px;
+    background-color: blueviolet;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+#current-channel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#current-points {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#enable {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#redeem {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#switch {
+    margin-right: 10px;
+}
+
+.filler {
+    width: 55px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
