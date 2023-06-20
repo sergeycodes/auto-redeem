@@ -15,8 +15,6 @@
     {
       "js": ["scripts/auto-redeem.js"],
       "matches": [
-        "https://developer.chrome.com/docs/extensions/*",
-        "https://developer.chrome.com/docs/webstore/*",
         "https://www.twitch.tv/*"
       ]
     }
