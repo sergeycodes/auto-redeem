@@ -1,6 +1,7 @@
 
-
-function claimPoints() {
+if (typeof document !== 'undefined') {
+ 
+  function claimPoints() {
   const claimButton = document.querySelector(".claimable-bonus__icon");
   if (claimButton !== null) {
     claimButton.click();
@@ -9,3 +10,5 @@ function claimPoints() {
 }
 claimPoints();
 setInterval(claimPoints, 60000); // It will check every 1 minute
+  
+}
