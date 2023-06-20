@@ -12,7 +12,9 @@ setInterval(function(){
 }, 1000); // every 10 seconds
 
 
-const streamerName = document.getElementsByClassName("tw-title").innerText;
+const streamerName = document.querySelector(".tw-title").innerText;
 if(streamerName !== undefined){
   console.log("Streamer name: " + streamerName);
+}else{
+  console.log("Streamer name not found.");
 }
