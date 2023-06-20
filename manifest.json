@@ -17,6 +17,7 @@
   "content_scripts": [
     {
       "js": ["scripts/auto-redeem.js"],
+      "html": ["index.html"],
       "matches": [
         "https://www.twitch.tv/*"
       ]
